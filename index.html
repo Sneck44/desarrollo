@@ -9,12 +9,13 @@
     <link rel= "stylesheet" href="estilos.css"/>
 </head>
 <body>
+    <div class="container">
     <header class="header">
-            <figure class="logo">
-           <img src="Imagenes/Asset 3.png " height="50px" alt="Logo pricnipal">
-            </figure>
-            <nav class="menú">
-           <ol>
+        <figure class="logo">
+            <img src="Imagenes/Asset 3.png " height="50px" alt="Logo pricnipal">
+        </figure>
+        <nav class="menú">
+            <ol>
                 <li>
                     <a href="#portafolio">Portafolio</a>
                 </li>
@@ -28,28 +29,34 @@
         </nav>
     </header>
     <section class= "hero">
-        <h1>
-            <div class="conteniner-image">
-            <!--<img src="Imagenes/Avatar IPG.png"  width="300" height="300" alt="Imágen principal del sitio"/>--> 
-            <div class="centrado"> <br/>    Hola mi nombre es <strong>Iván Pérez Gordillo</strong> <br/> Profesor de <strong>Telesecundaria</strong> <br/>con pasión por la <strong>enseñanza</strong></div>
+        <div class="container">
+            <h1>
+                <div class="conteiner-image">
+                    <img  class="hero-image" src="Imagenes/Avatar IPG.png"  width="300" height="300" alt="Imágen principal del sitio"/> 
+                    <div class="centrado"> <br/>    Hola mi nombre es <strong>Iván Pérez Gordillo</strong> <br/> Profesor de <strong>Telesecundaria</strong> <br/>con pasión por la <strong>enseñanza</strong></div>
+                </div>
             </div>
-        </h1>
-    </section>
-    <section id="portafolio" class="portfolio">
-        <h2>Portafolio (proyectos destacados)</h2>
-        <article class="project";>
-            <div class="project-left-details">
-            <h3 class="project-title">Platzi Video</h3>
-            <h6 class="project-course"> React Native / React</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 20/08/2020</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> https://github.com/explore </small></p>
-            <p class="project-description">Los proyectos emprendidos en mi transcurso como estudiante de Platzi reflean el entusiasmo y ganas de seguir aprendiendo, siempre de la mano de buenos mentores y esfuerzo de por medio.</p>
+            </h1>
         </div>
-        <figure class="project-imageContainer">
-            <img src="imagenes/platzi-video-react-native.png" alt="Proyecto react" width="500" height="300"/>
-        </figure> 
-        </article>
+        </section>
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2>Portafolio (proyectos destacados)</h2>
+                <article class="project";>
+                    <div class="project-left-details">
+                        <h3 class="project-title">Platzi Video</h3>
+                        <h6 class="project-course"> React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 20/08/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> https://github.com/explore </small></p>
+                        <p class="project-description">Los proyectos emprendidos en mi transcurso como estudiante de Platzi reflean el entusiasmo y ganas de seguir aprendiendo, siempre de la mano de buenos mentores y esfuerzo de por medio.</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img src="imagenes/platzi-video-react-native.png" alt="Proyecto react" width="500" height="300"/>
+                    </figure> 
+                </article>
+            </div>
     </section>
+    <div class="container">
     <h2 class="event-list-title">Más sobre mi experiencia</h2>
     <section id="experiencia" class="event-list">
         <article class="event">
@@ -92,8 +99,10 @@
                 <a class="event-description-url" href="https://www.youtube.com/watch?v=aKeEPaHzVIQ" target="_blank"> Ver platica.</a>
             </div>
         </article>
+        </div>
     </section>
     <section  class="contact" id= "trabajemos juntos">
+        <div class="container">
         <form action="/suscripción/" class="form-email">
             <h3> ¿Creamos algo juntos? </h3>
            <input type="text" placeholder="Déjame tu e-mail" id= "email"/>
@@ -105,8 +114,10 @@
                 <a href="https://github.com/Sneck44" class="social-link github"></a>
                 <a href="https://www.instagram.com/sneck44" class="social-link instagram"></a>
             </div>
+        </div>
     </section>
     <footer class="footer">
+        <div class="container">
         <div>
             <p>Curso de Desarrollo Web Online. <img src="../desarrollo/Imagenes/platzi.png"  width="80px" alt="Platzi"/></p>
         </div>
@@ -115,6 +126,7 @@
 
             </p>
         </div>
+    </div>
     </footer>
     
 </body>
